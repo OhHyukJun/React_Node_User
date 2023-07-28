@@ -67,7 +67,7 @@ app.post('api/users/login', async (req,res) => {
         });
       })
   } catch(err){
-    res.status(400).send(error);
+    res.status(400).send(err);
   }
 });
 
